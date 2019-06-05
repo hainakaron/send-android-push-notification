@@ -1,10 +1,10 @@
 <?php
-
 //include this on the payload to make the notification appear on the device's notification tray
 $notification = [
 	'title' => 'You have a new secure message.',
 	'body' => 'Tap to open.' 
 ];
+
 
 //include this if you are going to send your own customized payload to the client app. this will be received by the app when it is open. if sent together with the notification 
 $data = [
